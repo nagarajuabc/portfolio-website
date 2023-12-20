@@ -1,0 +1,300 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+.header
+{
+    width: 100%;
+    background-color: #999090;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 10%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.nav
+{
+    width: 30%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px
+}
+
+.banner
+{
+    width: 100%;
+    height:500px;
+    background-color: #bababa; 
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    column-gap: 200px;
+}
+
+.details
+{
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding: 20px 2%;
+    
+}
+
+.d1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.d2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    color: #5e2e2e;
+}
+
+.d3
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.cta
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    background-color: #bababa; 
+     color: white;
+     border-radius: 10px;
+} 
+
+.photo
+{
+    width: 33%;
+    border-radius: 30px;
+    
+}
+.title
+{
+    width: 100%;
+    
+    /* background-color: red; */
+    padding: 0px 5%;
+    padding-top: 30px;
+}
+.heading
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    
+}
+.section
+{
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    
+    display: flex; 
+    column-gap: 20px;
+}
+    
+.service
+{
+   width: 25%;
+   
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 0px 15px;
+    row-gap: 10px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    
+}
+.icon
+{
+    font-size: 60px;
+    padding-left: 70px;
+    margin-top: 30px;
+    color: gray;
+    
+}
+.s1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.s2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.view-atc
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding: 3px 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #bababa; 
+     color: white;
+     border-radius: 5px;
+
+}
+
+.number
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding: 30px 5%;
+}
+.achivements
+{
+    width: 100%;
+
+    background-color: #cec6c6;
+    padding: 20px 5%;
+}
+.ach-child
+{
+    width: 100;
+    
+    padding: 20px 0px;
+    display: flex;
+    column-gap: 15px;
+}
+.data
+{
+    width: 20%;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px rgb(201, 197, 197);
+    border-radius: 15px;
+    
+    
+}
+
+.num
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.des
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+.clients
+{
+    width: 100%;
+    
+    padding: 30px 10%;
+}
+
+
+.client-child
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+   padding: 40px 5%;
+    column-gap: 5%;
+    flex-wrap: wrap;
+}
+
+.client-img
+{
+    width: 15%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: .3s;
+}
+.client-img:hover
+{
+    filter: grayscale(0%);
+    transform: scale(1.3);
+}
+
+.footer
+{
+    width: 100%;
+    padding: 30px 5%;
+    background-color: #bababa;
+
+    
+}
+
+.footer-child
+{
+    width: 100%;
+    padding: 30px 5%;
+     
+    display: flex;
+    row-gap: 10px;
+    column-gap: 30px;
+    
+}
+
+.foot
+{
+    width: 25%;
+    padding: 30px 5%;
+    
+
+}
+
+.s1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px; 
+    margin-bottom: 10px;
+}
+
+.s2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px; 
+}
+
+.location
+{
+    width: 30%;
+    margin-top: 30px;
+}
